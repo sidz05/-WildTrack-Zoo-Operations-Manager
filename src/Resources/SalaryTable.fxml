@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SalaryTableController">
+   <children>
+      <TableView fx:id="eSalaryTable" layoutY="61.0" prefHeight="339.0" prefWidth="600.0" style="-fx-background-color: #FAF0E6; -fx-border-color: black;">
+        <columns>
+          <TableColumn fx:id="eid" prefWidth="157.33331298828125" text="ID" />
+          <TableColumn fx:id="ename" prefWidth="281.3334045410156" text="Name" />
+            <TableColumn fx:id="esalary" prefWidth="159.333251953125" text="Salary" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutY="1.0" prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: #FFF8DC;" text="Salary Table">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

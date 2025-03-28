@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFF8DC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeleteAnimalController">
+   <children>
+      <Label layoutX="97.0" layoutY="96.0" prefHeight="21.0" prefWidth="61.0" text="Animal ID" />
+      <TextField fx:id="pid" layoutX="185.0" layoutY="84.0" prefHeight="45.0" prefWidth="131.0" promptText="Enter the animal id " />
+      <TextArea fx:id="detail" layoutX="52.0" layoutY="143.0" prefHeight="128.0" prefWidth="495.0" promptText="Employee details will be shown here" />
+      <Text layoutX="55.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you really want to delete animal from database? " wrappingWidth="495.33333333333326" />
+      <Button fx:id="pyes" layoutX="128.0" layoutY="315.0" mnemonicParsing="false" onAction="#yes" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: #F0FFF0; -fx-border-color: black; -fx-border-radius: 5px;" text="Yes">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="pno" layoutX="373.0" layoutY="315.0" mnemonicParsing="false" onAction="#no" prefHeight="31.0" prefWidth="113.0" style="-fx-background-color: #F0FFF0; -fx-border-color: black; -fx-border-radius: 5px;" text="No">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="psubmit" layoutX="364.0" layoutY="84.0" mnemonicParsing="false" onAction="#psubmit" prefHeight="45.0" prefWidth="131.0" style="-fx-background-color: #F0FFF0; -fx-border-color: black; -fx-border-radius: 5px;" text="Search">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="status" layoutX="52.0" layoutY="354.0" prefHeight="31.0" prefWidth="495.0" text="." />
+      <Label alignment="CENTER" layoutX="33.0" layoutY="14.0" prefHeight="63.0" prefWidth="539.0" text="Enter the Id of animal you want to delete">
+         <font>
+            <Font name="Algerian" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

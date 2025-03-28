@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="600.0" style="-fx-background-color: #FBFFDC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TicketController">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="43.0" layoutY="73.0" prefHeight="21.0" prefWidth="73.0" text="Name :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="43.0" layoutY="112.0" prefHeight="21.0" prefWidth="73.0" text="Address :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="43.0" layoutY="147.0" prefHeight="21.0" prefWidth="73.0" text="Email :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="301.0" layoutY="223.0" prefHeight="21.0" prefWidth="73.0" text="Adult :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="43.0" layoutY="257.0" prefHeight="27.0" prefWidth="73.0" text=" Price :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="301.0" layoutY="185.0" prefHeight="21.0" prefWidth="73.0" text=" Date :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="43.0" layoutY="183.0" prefHeight="21.0" prefWidth="73.0" text="Contact :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="36.0" layoutY="223.0" prefHeight="21.0" prefWidth="80.0" text="Childern :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="298.0" layoutY="268.0" mnemonicParsing="false" onAction="#onConfirmClick" prefHeight="40.0" prefWidth="131.0" style="-fx-background-color: #DBDFAA;" text="Confirm Ticket">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="459.0" layoutY="268.0" mnemonicParsing="false" onAction="#onCancelClick" prefHeight="40.0" prefWidth="125.0" style="-fx-background-color: #DBDFAA;" text="Cancel Ticket">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="tname" layoutX="128.0" layoutY="73.0" prefHeight="21.0" prefWidth="325.0" text="." />
+      <Label fx:id="taddress" layoutX="128.0" layoutY="112.0" prefHeight="21.0" prefWidth="325.0" text="." />
+      <Label fx:id="temail" layoutX="128.0" layoutY="147.0" prefHeight="21.0" prefWidth="325.0" text="." />
+      <Label fx:id="tcontact" layoutX="128.0" layoutY="185.0" prefHeight="21.0" prefWidth="183.0" text="." />
+      <Label fx:id="tchildern" layoutX="128.0" layoutY="223.0" prefHeight="21.0" prefWidth="183.0" text="." />
+      <Label fx:id="tdate" layoutX="386.0" layoutY="185.0" prefHeight="21.0" prefWidth="183.0" text="." />
+      <Label fx:id="tadult" layoutX="386.0" layoutY="223.0" prefHeight="21.0" prefWidth="183.0" text="." />
+      <Label fx:id="tprice" layoutX="128.0" layoutY="260.0" prefHeight="21.0" prefWidth="131.0" text="." />
+      <Label alignment="CENTER" layoutX="43.0" layoutY="14.0" prefHeight="27.0" prefWidth="485.0" text="Zoo Ticket">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="ticketId" layoutX="533.0" layoutY="4.0" prefHeight="27.0" prefWidth="63.0" text="." />
+   </children>
+</AnchorPane>
